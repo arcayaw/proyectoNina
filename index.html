@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Coder</title>
+
+
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <script src="https://kit.fontawesome.com/5c64b13f76.js" crossorigin="anonymous"></script>
+
+    <!--Fuentes-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rajdhani:wght@700&display=swap"
+        rel="stylesheet">
+
+  <!--Estilos propios-->
+    <link rel="stylesheet" href="styles/css/styles.css">
+
+</head>
+
+
+
+<body>
+
+  
+  
+    <header class="hero ">
+        <div class="container-fluid"> 
+          <nav class="navbar  navbar-expand-lg navbar-dark bg-dark bg-transparent ">
+              <a class="navbar-brand  " href="#">
+                  <img src="/proyectoNina/DesarrolloWeb/ProyectoDiseñoWeb/img/Rimaya-logo.png" width="300 " height="100  " class="d-inline-block align-top " alt="" loading="lazy">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" navbar-nav ml-auto ">
+                  <li class="nav-item active ">
+                    <a class="nav-link " href="#">Conocenos <!--<span class="sr-only">(current)</span>--> </a>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Diseño Web</a>
+                      <a class="dropdown-item" href="#">Fotografia de producto</a>            
+                      <a class="dropdown-item" href="#">Publicidad Online</a>
+          
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Dudas</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a href="#myModal" class="nav-link trigger-btn" data-toggle="modal">Ingresar</a>
+                      <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-login">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title"></h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <div class="modal-body">
+                  <form action="/examples/actions/confirmation.php" method="post">
+                      <div class="form-group">
+                          <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                              <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                              <input type="text" class="form-control" name="password" placeholder="Password" required="required">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <button type="submit" class="btn btn-primary btn-block btn-lg button">Registrate</button>
+                      </div>
+                      <p class="hint-text"><a href="#">¿Olvidaste tu clave?</a></p>
+                  </form>
+              </div>
+              <div class="modal-footer">¿No tienes cuenta todavia? <a href="#">Crear Cuenta</a></div>
+          </div>
+      </div>
+  </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>  
+    </header>
+
+    <main>
+
+        <div class="main">
+            <h1 class="animate__animated animate__backInDown"> Agencia de Marketing Digital</h1>
+            <p class="textoPrincipal"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum in
+                tempora
+                nam provident rerum enim
+                accusantium quam ullam aspernatur! Veritatis iusto cumque a autem! Exercitationem quod repudiandae
+                aliquid
+                possimus?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt soluta maxime at, quaerat voluptate
+                odio
+                et,
+                aliquam, est repudiandae architecto atque distinctio quo. Nam porro deserunt officiis placeat
+                voluptatibus
+                nemo.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur architecto similique error
+                autem
+                quos,
+                magni et dolores odit laudantium aperiam pariatur expedita ab accusantium veritatis dolorem
+                obcaecati
+                quae,
+                neque minima.
+            </p>
+        </div>
+    </main>
+
+
+    <!--agregar el modal de boostrap, puede ser con un recordatorio
+    de envios o una oferta.  MODAL
+
+    Revisar si tengo npm instalado 
+-->
+
+    <div >
+
+        <h3>NUESTROS SERVICIOS</h3>
+
+            <div class="service-container">
+                <div  >
+                    <h3 class="service-heading">Diseño Web</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+                        doloribus labore explicabo amet
+                        quia corporis numquam quos repudiandae repellat, voluptatum, natus inventore eum aliquam
+                        aliquid,
+                        iusto eaque unde tenetur accusamus.</p>
+                </div>
+                <div>
+                    <h3 class="service-heading">Fotografía de Producto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+                        explicabo eaque autem mollitia
+                        consequuntur? Quis, porro officiis repellat consequatur, dolore iusto libero voluptates
+                        amet
+                        assumenda quae non eligendi? Veritatis, aliquid?</p>
+                </div>
+                <div>
+                    <h3 class="service-heading">Publicidad Online</h3>
+                        <p class="texto-service">Facebook Ads</p>
+                        <p class="texto-service">Google Ads</p>
+                
+                </div>
+            </div>
+    
+            <h3>FORMULARIO DE CONTACTO</h3>
+
+            <form class="formulario"> 
+                <label  for="NombreyApellido"> <input  class="input-field" type="text" name="NombreyApellido"
+                        placeholder="Nombre y Apellido" required></label><br><br>
+
+                <label for="email"><input class="input-field" type="email" name="email" placeholder="Correo electronico"
+                        required></label><br><br>
+
+                <label  for="consulta"> <textarea name="consulta" cols="30  ,5" rows="5"
+                        placeholder="Escriba su consulta..."></textarea></label><br>
+
+                <p>¿Qué servicio te interesa?</p>
+
+                <input type="radio" name="diseñoweb" value="diseñoweb"> Diseño Web<br>
+
+                <input type="radio" name="fotografiadeproducto" value="fotografia de producto"> Fotografía de
+                Producto<br>
+
+                <input type="radio" name="publicidadonline" value="publicidadonline"> Publidad Online<br><br>
+
+                <label for="TipoDeCliente">Tipo de cliente: </label>
+                <select class="select-field">
+                    <option value="empresa">Empresa</option>
+                    <option value="particular">Particular</option>
+                    <option value="otro">Otro</option>
+                </select>
+               
+               
+                <button class="button">Enviar Consulta</button>
+                
+
+            </form>
+
+        
+            <footer>
+                <div class="menuFooter">
+                    <ul>
+                        <li><a href="./views/conocenos.html">Conocenos</a></li>
+                        <li><a href="./views/dudas.html">Dudas</a></li>
+                        <li><a href="./views/servicios.html">Servicios</a></li>
+                        <li><a href="./views/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="contacto">
+                    <a href="https://www.instagram.com/rimayaagency/" target="blank">@rimayaagency</a>
+                    <p>Email: rimayaagency.info@gmail.com</p>
+                    <p>Whatsapp: +54 9 11 37714278</p>
+                    <p class="pie">Todos los Derechos Reservados 2020 &copy;</p>
+                </div>
+            
+            </footer>
+
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>

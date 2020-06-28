@@ -1,0 +1,255 @@
+/*
+
+placeholder
+
+*/
+/*----------------Globales-----------------*/
+body {
+     
+    color: black;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+
+}
+
+header {
+
+    
+    
+    background-color: #5F9EA0;
+    background-image: url(/proyectoNina/DesarrolloWeb/ProyectoDiseñoWeb/img/header.jpg);
+    height: 60vh; /**vh=view port height**/
+    background-position: top center;
+    background-size: cover;
+}
+
+
+
+nav {
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    color: #5F9EA0;
+    text-align: right;
+    font-size: 20px;
+    width: 90%;
+}
+
+.nav-all-items {
+    margin-right: 2rem;
+    padding-bottom: 1.5rem;
+    margin-left: 30rem;
+    margin-top: 2rem;
+   
+    
+}
+
+.container-fluid {
+    padding: 3% 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+.nav-item:last-of-type{
+    margin-right: 0;
+}
+
+.nav-item:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 1.5px;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+}
+
+h1 {
+    align-items: center;
+    color: #5F9EA0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+
+    text-align: center;
+}
+
+.logo {
+    display: inline;
+    margin-left: 3rem;
+   
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.pie {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+main {
+    display: block;
+    margin-top: 150px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 90%;
+}
+
+h3.service-heading {
+    margin: 0 auto;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap: 2rem;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 90%;
+
+}
+
+.service-heading {
+    color: #ffffff;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.formulario{
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    padding: 16px;
+    border: 20px solid cadetblue;
+    border-radius: 16px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.input-field{
+    width: 93%;
+}   
+
+
+
+.button{ 
+    
+    margin-top: 2rem;
+    justify-content: center;
+    background-color: #5F9EA0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.hint-text{
+    text-align: center;
+    font-size: smaller;
+    margin-left: 1.5rem;
+}   
+
+.button:hover{
+    background-color: #ffffff;
+    color: #5F9EA0;
+}
+
+.serviciosTitle {
+    display: flex;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 100px;
+    background-color: cadetblue;
+    width: 300px;
+    height: 50px;
+    margin: 10px 30px;
+    border-radius: 20px;
+    padding: 20px 50px 0px 50px;
+}
+
+.texto-service {
+    padding: 0;
+}
+
+.textoPrincipal {
+    padding-left: 100PX;
+    
+}
+
+footer {
+
+    background: rgb(50,166,176);
+    background: linear-gradient(0deg, rgba(50,166,176,1) 27%, rgba(61,158,143,0.7535014005602241) 73%, rgba(0,212,255,1) 100%);
+  /*  background-color: #5F9EA0;*/
+    padding-top: 1rem;
+   
+
+    max-width: 100%;
+
+
+    height: 200px;
+
+}
+
+
+.contacto {
+    font-family: 'Rajdhani', sans-serif;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacto p {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.contacto a {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.menuFooter li {
+    display: flex;
+    justify-content: flex-start;
+
+}
